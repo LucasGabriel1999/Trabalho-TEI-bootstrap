@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+
+main .tope h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    text-shadow: 0px 5px 8px rgb(0, 0, 0);
+    font-size: 4.2rem;
+}
+
+main .tope p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+main .tope h2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    text-shadow: 0px 5px 8px rgb(0, 0, 0);
+    font-size: 2.2rem;
+}
+
+main .tope h2#alfenas{
+    margin-top: 100px;
+    font-size: 2.5rem;
+}
+
+main .tope .list-contact{
+    margin-top: 50px;
+}
+
+main .tope .list-contact li{
+    background-color: rgb(221, 221, 221);
+    width: 50%;
+    margin-left: 25%;
+}
+
+main .contact .info{
+    margin-top: 50px;
+
+}
+main .contact h1#escritorio{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    text-shadow: 0px 5px 8px rgb(0, 0, 0);
+    font-size: 3.5rem;
+}
+
+main .contact .info p#name{
+    margin-top: 20px;
+    margin-left: 35%;
+    font-family: 'Arizonia', cursive;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+main .contact .info img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(126, 126, 126);
+}
+main .contact .info .text{
+    margin-bottom: 80px;
+}
+
+main .contact .info .text p{
+    margin-top: 50px;
+    margin-left: 25%;
+    line-height: 1px;
+}

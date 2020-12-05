@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+main .info-contact h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    text-shadow: 0px 5px 8px rgb(0, 0, 0);
+    font-size: 4.2rem;
+}
+
+main .info-contact p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+main .info-person .direcao h2{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    text-shadow: 0px 5px 8px rgb(0, 0, 0);
+    font-size: 4.2rem;
+}
+
+main .info-person .photo{
+    margin-top: 50px;
+} 
+
+main .info-person .photo img{
+    border-radius: 50%;
+    margin-top: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(126, 126, 126);
+}
+
+main .info-person .photo p#name{
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+main .info-person .photo p#cargo{
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+main .info-person .photo p#description{
+    margin-bottom: 35px ;
+}
+
+main .history h2{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    text-shadow: 0px 5px 8px rgb(0, 0, 0);
+    font-size: 4.2rem;
+    
+}
+
+main .history .text-history{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.1rem;
+}
