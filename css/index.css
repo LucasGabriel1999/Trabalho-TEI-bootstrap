@@ -93,6 +93,7 @@ body .destaques img{
 }
 
 body .destaques img:hover{
+    cursor: pointer;
     transform: scale(1.05);
     filter: brightness(1);
     transition: 1s;
@@ -120,6 +121,14 @@ body footer p{
     text-align: left;
     margin-top: 25px;
     margin-left: 10%;
+}
+
+
+body footer a:hover{
+    cursor: pointer;
+    font-style: italic;
+    font-display: none;
+    text-decoration: none;
 }
 
 
