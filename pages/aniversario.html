@@ -12,6 +12,8 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         
+        <link rel="icon" type="imagem/png" href="../images/logo].png" />
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -21,7 +23,7 @@
     <!-- BODY -->
     <body>
         <!-- HEADER -->
-        <nav class="navbar navbar-expand navbar-dark ">
+        <nav class="navbar navbar-expand navbar-dark" id="topo">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand logo-inicio" href=""><img src="/images/logo].png" alt=""></a>   
@@ -36,17 +38,18 @@
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Serviços</a>
 
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Bufê</a>
-                                <a class="dropdown-item" href="#">Cabelereiros</a>
-                                <a class="dropdown-item" href="#">Carros</a>
-                                <a class="dropdown-item" href="#">Cerimonial</a>
-                                <a class="dropdown-item" href="#">Confeitaria</a>
-                                <a class="dropdown-item" href="#">Espaços</a>
-                                <a class="dropdown-item" href="#">Fotografia</a>
-                                <a class="dropdown-item" href="#">Maquiadores</a>
-                                <a class="dropdown-item" href="#">Ornamentação</a>
-                                <a class="dropdown-item" href="#">Sonoplastia</a>
-                                <a class="dropdown-item" href="#">Vestimentas</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraBufe">Bufê</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraCabelereiro">Cabelereiros</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraCarros">Carros</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraCerimonial">Cerimonial</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraConfeitaria">Confeitaria</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraEspacos">Espaços</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraFotografia">Fotografia</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraMaquiadores">Maquiadores</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraOrnamentacao">Ornamentação</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraSonoplastia">Sonoplastia</a>
+                                <a class="dropdown-item" href="pagesServer.html#ancoraVestimentas">Vestimentas</a>
+                                <a class="dropdown-item" href="pagesServer.html">Geral</a>
 
                             </div>
                         </li>
@@ -122,10 +125,10 @@
             <!-- Conteudo -->
 
             <div class="container-fluid dest-mes" id="semana">
-                <h2>Destaque da Semana</h2>
+                <h2 id="ancoraSemana">Destaque da Semana</h2>
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" >
                         <img src="../images/niver-clara1x1.jpg"   id="imgSemana" alt="Image">
                         <p id="name-event">Clara faz <span style="font-family: Arial;">XV</span></p> 
                     </div>
@@ -187,7 +190,7 @@
                 <h2>Destaque do Ano </h2>
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="ancora">
                         <img src="../images/fernanda-niver.jfif" id="imgAno" alt="Image">
                         <p id="name-event">Aniversário Fernanda</p> 
                     </div>
@@ -214,7 +217,9 @@
                 </div>
             </div>
 
-            
+            <div class="returnTop">
+                <a href="#topo"><img src="../images/boton-top.png" alt="Topo"></a>
+            </div>
 
         </main>
         <!-- FOOTER -->

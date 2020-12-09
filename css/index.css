@@ -107,6 +107,20 @@ body .destaques p{
     margin-top: 5px;
 }
 
+/* Voltar ao topo */
+body .returnTop img{
+    margin-top: 80px;
+    margin-left: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+body .returnTop img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
 /* Footer */
 
 body footer{
@@ -114,7 +128,7 @@ body footer{
 }
 
 body footer p{
-    line-height: 1px;
+    
     font-size: 0.8rem;
     color: #ffffff;
     padding-top: 0.2rem;

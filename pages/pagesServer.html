@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD -->
+    <head>
+        <title>Grupo Gabriel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/eventsParcials.css">
+        <link rel="stylesheet" type="text/css" href="../css/serverParcials.css">
+
+        <link rel="icon" type="imagem/png" href="../images/logo].png" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    </head>
+
+    <!-- BODY -->
+    <body>
+        <!-- HEADER -->
+        <nav class="navbar navbar-expand navbar-dark" id="topo">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand logo-inicio" href=""><img src="/images/logo].png" alt=""></a>   
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav row">
+                        <li class="nav-item col-md-2" id="home-link">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown options-menu col-md-2" id="home-link" >
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Serviços</a>
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#ancoraBufe">Bufê</a>
+                                <a class="dropdown-item" href="#ancoraCabelereiro">Cabelereiros</a>
+                                <a class="dropdown-item" href="#ancoraCarros">Carros</a>
+                                <a class="dropdown-item" href="#ancoraCerimonial">Cerimonial</a>
+                                <a class="dropdown-item" href="#ancoraConfeitaria">Confeitaria</a>
+                                <a class="dropdown-item" href="#ancoraEspacos">Espaços</a>
+                                <a class="dropdown-item" href="#ancoraFotografia">Fotografia</a>
+                                <a class="dropdown-item" href="#ancoraMaquiadores">Maquiadores</a>
+                                <a class="dropdown-item" href="#ancoraOrnamentacao">Ornamentação</a>
+                                <a class="dropdown-item" href="#ancoraSonoplastia">Sonoplastia</a>
+                                <a class="dropdown-item" href="#ancoraVestimentas">Vestimentas</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown options-menu col-md-2"  id="home-link">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eventos</a>
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="aniversario.html">Aniversários</a>
+                                <a class="dropdown-item" href="#">Bailes</a>
+                                <a class="dropdown-item" href="#">Casamentos</a>
+                                <a class="dropdown-item" href="#">Formaturas</a>
+                                <a class="dropdown-item" href="#">Shows</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown options-menu col-md-2" id="home-link">
+                            <a class="nav-link" href="quemSomos.html" style="white-space: nowrap;">Quem somos</a>
+                        </li>
+
+                        <li class="nav-item dropdown options-menu col-md-1" id="home-link">
+                            <a class="nav-link" href="contact.html">Contato</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Title -->
+            <div class="container-fluid title dark" >
+                <h1>Serviços</h1>
+            </div>
+
+            <!-- Carrossel -->
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>     
+                </ul>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/festa-02-slider-niver.jpg" alt="Chicago" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h1>Grupo Gabriel</h1>
+                            <p>As melhores festas</p>
+                        </div>   
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../images/ornamentos.jpeg" alt="Los Angeles" width="1100" height="500">
+                        
+                        <div class="carousel-caption">
+                            <h3>Realizando sonhos</h3>
+                            <p>Eternizando momentos</p>
+                        </div>   
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            <!-- Conteudo -->
+
+            <div class="container-fluid dest-Server" id="bufe">
+                <h2 id="ancoraBufe">Bufê</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"  class="rounded-circle" width="80%" height="80%" id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   class="rounded-circle" width="70%" height="70%" id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="cabelereiro">
+                <h2 id="ancoraCabelereiro">Cabelereiros</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="carros">
+                <h2 id="ancoraCarros">Carros</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="cerimonial">
+                <h2 id="ancoraCerimonial">Cerimonial</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="confeitaria">
+                <h2 id="ancoraConfeitaria">Confeitaria</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="espacos">
+                <h2 id="ancoraEspacos">Espaços</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="fotografia">
+                <h2 id="ancoraFotografia">Fotografia</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="maquiadores">
+                <h2 id="ancoraMaquiadores">Maquiadores</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="ornamentacao">
+                <h2 id="ancoraOrnamentacao">Ornamentação</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="sonoplastia">
+                <h2 id="ancoraSonoplastia">Sonoplastia</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid dest-Server" id="vestimentas">
+                <h2 id="ancoraVestimentas">Vestimentas</h2>
+
+                <div class="row">
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                    <div class="container col-md-4 descricao">
+                        <p>In auctor eleifend inceptos platea diam pretium mi porta ipsum felis turpis ut, nisl augue et enim eget ornare egestas eleifend elementum cursus. posuere et elementum iaculis vivamus condimentum purus aenean senectus iaculis, class aliquam netus neque fusce lacinia morbi faucibus himenaeos, ligula mi blandit rutrum pretium semper dictumst integer. mauris interdum torquent quam lobortis id ac justo, venenatis aenean risus urna semper sollicitudin senectus, litora faucibus vehicula fringilla et lobortis. eget himenaeos vel sociosqu varius ut lectus, quisque sollicitudin proin placerat aliquam vehicula laoreet erat volutpat, egestas vel curabitur amet aptent phasellus venenatis.  </p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src="../images/niver-clara1x1.jpg"   id="imgDesc" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="returnTop">
+                <a href="#topo"><img src="images/boton-top.png" alt="Topo"></a>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <div class="row">
+                <div class=" fo-info col-md-4">
+                    <p>Escritório - Alpinópolis - MG</p>
+                    <p>CNPJ: 10P.ALP09358.45-LG</p>
+                    <p>Av. Governador Valadares 260 - Centro - Alpinópolis - MG</p>
+                    <p style="font-style: italic;">Contato: grupo.gabriel@gmail.com</p>
+                </div>
+
+                <div class=" fo-info col-md-4">
+                    <p>Escritório - Alfenas - MG</p>     
+                    <p>CNPJ: 89P.ALF0968.45-MS</p>
+                    <p>Rua João Pinheiro 8.965 - Parque das Nações - Alfenas - MG </p>
+                    <p style="font-style: italic;">Contato: grupo.gabrielAlfenas@gmail.com</p>
+                </div>
+
+                <div class=" fo-info col-md-4">
+                    <p>Grupo Gabriel ™</p>
+                    <p>Direitos reservados </p>
+                    <p>2020 </p>
+                    <a href="contact.html"><p>Clique para aqui Contato</p></a>
+                </div>
+
+            </div>
+            
+        </footer> 
+    </body>
+</html>
