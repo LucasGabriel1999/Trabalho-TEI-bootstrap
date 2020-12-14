@@ -86,9 +86,10 @@ body .destaques img{
     border-radius: 50%;
     height: 17rem;
     margin-top: 30px;
-    border-width: 2px;
+    box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.77);
+    /* border-width: 2px;
     border-style: solid;
-    border-color: rgb(126, 126, 126);
+    border-color: rgb(126, 126, 126); */
     
 }
 
@@ -96,7 +97,7 @@ body .destaques img:hover{
     cursor: pointer;
     transform: scale(1.05);
     filter: brightness(1);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 body .destaques p{
@@ -117,8 +118,8 @@ body .returnTop img{
 
 body .returnTop img:hover{
     cursor: pointer;
-    transform: scale(1.05);
-    transition: 1s;
+    transform: scale(1.09);
+    transition: 0.2s;
 }
 
 /* Footer */
