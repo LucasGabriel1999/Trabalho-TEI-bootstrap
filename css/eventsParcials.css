@@ -124,5 +124,9 @@ main .mini-dest img:hover{
         width: 50%;
     }
 
+    main .carousel{
+        display: none;
+    }
+
 
 }

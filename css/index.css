@@ -5,7 +5,6 @@
 
 body{
     margin:0px auto;
-    background-color: rgb(221, 221, 221);
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -151,4 +150,9 @@ body footer a:hover{
     body #myNavbar{
         margin-left: 50px;
     }
+
+    body .carousel{
+        display: none;
+    }
+
 }

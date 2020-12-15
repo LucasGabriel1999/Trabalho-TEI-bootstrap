@@ -110,4 +110,9 @@ body .returnTop-3 button:hover{
         margin-left: 48%;
         margin-top: 30px;
     }
+
+    main .carousel{
+        display: none;
+    }
+
 }
