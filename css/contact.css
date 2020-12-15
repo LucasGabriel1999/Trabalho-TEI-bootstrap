@@ -14,7 +14,11 @@ main .tope h1{
 main .tope p{
     margin-top: 30px;
     text-align: center;
-    font-size: 1.1rem;
+    font-family: 'Gill Sans MT',sans-serif; 
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: black;
 }
 
 main .tope h2{
@@ -75,5 +79,5 @@ main .contact .info .text{
 main .contact .info .text p{
     margin-top: 50px;
     margin-left: 25%;
-    
+    font-family: 'Gill Sans MT',sans-serif; 
 }

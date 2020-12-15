@@ -10,9 +10,9 @@ main .title{ /*Cor dark navbar*/
 }
 
 main .carousel-caption h1,
-main .carousel-caption h3,
 main .carousel-caption p{
     text-shadow: 0px 5px 8px rgb(0, 0, 0);
+    color: white;  
 }
 
 main .title h1{
@@ -64,13 +64,20 @@ main .dest-mes p#name-event{
     font-weight: 500;
     font-size: 2rem;
     margin-top: 5px;
+    margin-left: 15%;
+    width: 70%;
 }
 
 main .dest-mes .descricao p{
     margin-top: 100px;
+    margin-left: -80px;
     width: 90%;
     text-align: justify;
-    
+    font-family: 'Gill Sans MT',sans-serif; 
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #808285;
 }
 
 main #semana{

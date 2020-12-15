@@ -129,7 +129,7 @@ body footer{
 }
 
 body footer p{
-    
+    font-family: 'Gill Sans MT',sans-serif;   
     font-size: 0.8rem;
     color: #ffffff;
     padding-top: 0.2rem;
