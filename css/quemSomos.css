@@ -35,9 +35,7 @@ main .info-person .photo{
 main .info-person .photo img{
     border-radius: 50%;
     margin-top: 30px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(126, 126, 126);
+    box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.77);
 }
 
 main .info-person .photo p#name{

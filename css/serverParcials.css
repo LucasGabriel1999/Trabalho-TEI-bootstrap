@@ -26,7 +26,7 @@ main .dest-Server img#imgDesc{
     margin-left: 10%;
     margin-top: 50px;
     width: 80%;
-    height: 80%;
+    height: auto;
 }
 
 main .dest-Server p#name-event{
@@ -90,6 +90,18 @@ body .returnTop-3 button:hover{
     transition: 0.2s;
 }
 
+body #text-fim{
+    margin-top: 100px;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+    font-family: 'Gill Sans MT',sans-serif; 
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #808285;
+}
+
 @media screen and ( max-width: 767px ) {
     main .dest-Server .descricao p{
         margin-left: 5%;
@@ -103,7 +115,7 @@ body .returnTop-3 button:hover{
     main .dest-Server img#imgDesc{
         width: 60%;
         height: 80%;
-        margin-left:23%;
+        margin-left:22.5%;
     }
 
     body .returnTop-2 img{
